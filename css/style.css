@@ -1,0 +1,94 @@
+body {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    font-size: 10vw;    
+    background-color: #2b7a78;
+    color: #4e4e50;
+    font-family: 'Dancing Script', cursive;
+}
+
+section{
+    height: auto;
+    background-color:#def2f1;
+}
+
+#menu-vertical { 
+    float: left;
+    height: inherit;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    font-size: 4vw;
+    list-style-type: none;
+    color: #4e4e50;   
+    background-color: #3AAFA9;
+}
+
+#menu-horizontal{
+    display: -webkit-inline-box;
+    list-style-type: none;
+    height: inherit;    
+    text-align: center; 
+    font-size: 2vw;
+    color: #4e4e50;   
+    background-color: #3AAFA9;
+    width: 100%; 
+    margin: 5px 0 5px 0;  
+    padding: 0;     
+    text-align: center; 
+}
+
+.menu-h{
+    width: 25%;
+}
+
+article {    
+    padding: 0px;
+    display: grid;
+    width: 80%;
+}
+
+div#info{
+    display: inline;
+    height: auto;
+}
+
+iframe{
+    display: inline;
+    width: 100%;
+    border: none;
+    height: 750px;
+}
+
+#info-homero {
+    display: initial;
+    height: auto;
+}
+
+#info-luna, #info-lobito, #info-yunica, #info-lola, #info-oli, #info-pelu {
+    display: none;
+}
+
+footer{
+    text-align: right;
+    height: 60px;
+}
+
+#homero:hover, #luna:hover, #lobito:hover, #yunica:hover, #lola:hover, #oli:hover, #pelu:hover, .menu-h:hover{
+    transform:scale(1.1);
+}
+
+a:link, a:visited {
+    color: grey;
+    text-decoration: none;
+    cursor: auto; 
+}

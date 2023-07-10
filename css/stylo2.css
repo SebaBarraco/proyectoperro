@@ -1,0 +1,111 @@
+body {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#def2f1;
+}
+
+header {
+    margin: auto;
+    text-align: right;
+    font-size: 10vw;    
+    background-color: #2b7a78;
+    color: #4e4e50;
+}
+
+section{
+    height: 560px;    
+    
+}
+
+nav { 
+    float: left;
+    height: inherit;
+    width:30%;
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    font-size: 5vw;
+    list-style-type: none;
+    color: #4e4e50;   
+    background-color: #3AAFA9;
+}
+
+iframe{
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+
+.info{
+    margin-top: 0;
+    width: 65%;
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+
+article {    
+    padding: 0px;
+    display: flex;
+}
+
+footer{
+    text-align: right;
+    height: 60px;
+}
+
+
+#info-homero {
+    display: inline;
+}
+
+#info-luna, #info-lobito, #info-yunica, #info-lola, #info-oli, #info-pelu {
+    display: none;
+}
+
+#datos{
+    background: rgb(130, 201, 255);
+    padding: 5px; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+#formacion, #otros, #antecedentes{
+    background: none; 
+    padding: 5px;  
+    border-radius: 10px 10px 10px 10px;
+}
+
+li {
+    height: auto;
+    margin-top: 0px;
+    cursor: pointer;    
+}
+
+#datos:hover {
+    font-style: italic;
+}
+
+#formacion:hover{
+    font-style: italic;
+}
+
+#otros:hover{
+    font-style: italic;
+}
+
+#antecedentes:hover{
+    font-style: italic;
+}
+
+a:link, a:visited {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer; 
+}
+  

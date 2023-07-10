@@ -1,0 +1,37 @@
+.nombre{
+    font-size: 5vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4e4e50;
+}
+
+.texto{
+    font-size: 2vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4e4e50;
+
+}
+
+.container{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 150px 150px;
+    grid-gap: 2rem;
+}
+
+@media (max-width: 768px){
+    .container{
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 150px 150px 150px;
+        grid-gap: 1rem;
+    }
+}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
+    display: flex;
+    justify-content: center;
+}
+
+.foto1:hover, .foto2:hover, .foto3:hover, .foto4:hover, .foto5:hover, .foto6:hover{    
+    transform:scale(1.2);
+}
